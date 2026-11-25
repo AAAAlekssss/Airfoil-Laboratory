@@ -1,0 +1,10 @@
+%%AER 303 Airfoil laboratory
+%Constants
+Test_length = 0.61;%m, this is the test section
+test_dimension = 0.3048; %m, this is the test section width and height
+pressure_rake = 0.01.*([1.67,3.33,5,6,7,8,9,10,11,12,13,14,15,16.67,18.33,20]+0.5); %in m now
+chord = 100; %mm
+
+%%nondimesnionalizing
+tap_locations = [0,3,6,10,15,20,30,40,55,70,85,100,90,60,40,0.3,0.2,0.1,0.05;
+                0,0.033020
